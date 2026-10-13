@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Leila — 13 de Outubro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="curtain curtain-left"></div>
+  <div class="curtain curtain-right"></div>
+
+  <main>
+    <section class="cover page">
+      <div class="ornament">✦</div>
+      <p class="eyebrow">UM DIA ESPECIAL</p>
+      <h1>Leila</h1>
+      <div class="gold-line"></div>
+      <p class="date">13 de Outubro</p>
+      <p class="intro">Um pequeno álbum feito especialmente para você.</p>
+      <button class="gold-button" id="openAlbum">Abrir o álbum</button>
+      <div class="scroll-hint">↓</div>
+    </section>
+
+    <section class="message page">
+      <div class="paper">
+        <div class="paper-corner">✦</div>
+        <p class="eyebrow">PARA VOCÊ</p>
+        <h2>Meu amor,</h2>
+        <p class="message-text">
+          Gostaria de fazer esse <strong>SEU dia</strong> se tornar especial,
+          não com muito bem material, mas mostrando meu amor por você.
+        </p>
+        <p class="message-text">
+          Você é uma pessoa maravilhosa e extremamente talentosa para entender
+          de qualquer assunto. Eu admiro isso em você.
+        </p>
+        <p class="message-text">
+          Admiro também o carinho que você demonstra por mim e pelo vadio do gato,
+          e a paciência em aturar minhas brincadeiras bestas.
+        </p>
+        <p class="message-text final-line">
+          Feliz aniversário, meu amor. ❤️
+        </p>
+        <div class="signature">Com amor, para Leila</div>
+      </div>
+    </section>
+
+    <section class="memories page">
+      <div class="section-heading">
+        <p class="eyebrow">NOSSAS MEMÓRIAS</p>
+        <h2>Momentos que merecem ficar guardados</h2>
+        <p>Cada foto tem uma história — e uma legenda só nossa.</p>
+      </div>
+
+      <div class="album-grid" id="albumGrid" aria-label="Álbum de fotografias"></div>
+    </section>
+
+    <section class="ending page">
+      <div class="ending-card">
+        <div class="ornament">✦</div>
+        <p class="eyebrow">13 • 10</p>
+        <h2>Feliz aniversário,<br>meu amor.</h2>
+        <div class="gold-line"></div>
+        <p>
+          Que tudo o que você mais deseja se realizem meu amor, Te vivo eternamente.
+        </p>
+        <div class="heart">♥</div>
+        <small>Do seu preto, para minha preta</small>
+      </div>
+    </section>
+  </main>
+
+  <aside class="music-player" aria-label="Tocador de música">
+    <button class="vinyl-button" id="musicToggle" type="button" aria-label="Tocar música" title="Tocar ou pausar a música">
+      <span class="vinyl-disc" id="vinylDisc">
+        <img src="musica/capa-palavras.png" alt="Capa do single Palavras no Corpo, de Gal Costa" class="vinyl-cover">
+      </span>
+      <span class="music-status" id="musicStatus">♫ Toque para ouvir</span>
+    </button>
+    <audio id="backgroundMusic" src="musica/palavras-no-corpo.mp3" preload="auto" loop></audio>
+  </aside>
+  <script src="script.js"></script>
+</body>
+</html>

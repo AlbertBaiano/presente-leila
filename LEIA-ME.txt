@@ -1,0 +1,31 @@
+PRESENTE DE ANIVERSÁRIO — LEILA
+
+COMO ABRIR
+1. Extraia o ZIP inteiro para uma pasta.
+2. Abra o arquivo index.html no navegador.
+3. Mantenha a pasta "fotos" junto de index.html, style.css e script.js.
+
+FOTOS E LEGENDAS
+As 10 fotos já estão incluídas. As legendas foram criadas a partir dos nomes originais dos arquivos, removendo apenas a extensão .jpg/.jpeg.
+
+PARA TROCAR UMA FOTO
+1. Coloque a nova imagem dentro da pasta "fotos".
+2. Abra script.js com o Bloco de Notas.
+3. Na lista "const fotos", troque o valor de "arquivo" para o nome/caminho da nova imagem e altere "legenda" para o texto desejado.
+
+PARA ADICIONAR OUTRA FOTO
+1. Copie a imagem para a pasta "fotos" (por exemplo: fotos/foto-11.jpg).
+2. No script.js, acrescente mais um item dentro da lista "const fotos", usando o formato:
+   { arquivo: "fotos/foto-11.jpg", legenda: "Sua legenda aqui" }
+3. Salve e atualize a página no navegador.
+
+IMPORTANTE
+Não mova as fotos para fora da pasta "fotos", porque o site procura as imagens nesse local.
+O site usa fontes online quando há internet, mas as fotos são locais e abrem junto com o projeto.
+
+
+MÚSICA DE FUNDO
+- A música "Palavras no Corpo", de Gal Costa, está em musica/palavras-no-corpo.mp3.
+- A capa aparece dentro de um disco de vinil giratório no canto inferior direito.
+- O site tenta iniciar a música ao abrir. Alguns navegadores bloqueiam áudio automático;
+  nesse caso, basta clicar no disco para começar. Clique novamente para pausar.
